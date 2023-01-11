@@ -19,15 +19,24 @@ nav{
     font-weight: 800;
     font-size: 45px;
 }
+.double-btn{
+    display: flex;
+    gap: 7px;
+}
 .btn-primary{
     color:#FFFFFF;
     font-weight:800px;
-    font-size: 20px;
     border:0;
     padding: 10px 20px;
     /* height:64px; */
     border-radius: 5px;
     background: #FD6E0A;
+}
+.button-link{
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    padding: 5px 12px;
+    color: #FD6E0A;
 }
 nav ul{
     display: flex;
