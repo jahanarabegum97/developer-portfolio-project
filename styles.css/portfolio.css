@@ -4,7 +4,7 @@
 }
 .header{
     background:#FFF8F3;
-    background-image: url(/images/header_bg.png), url(/images/developer.png);
+    background-image: url(/images/header_bg.png),url(/images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right,left;
 }
@@ -58,7 +58,7 @@ nav li{
 }
 .banner-title{
     font-weight: 700px;
-    font-size: 85px;
+    font-size: 40px;
 }
 .banner-sub-title{
     font-weight: 600px;
