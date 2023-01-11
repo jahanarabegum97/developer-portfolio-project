@@ -59,29 +59,27 @@ nav li{
 .banner-description{
     color:#757575;
     font-weight:400;
-    Size: 18px;
+    size: 18px;
     margin-bottom: 30px;
 }
-/* .img-short{
-    width: 100%;
-} */
 
 /* main section*/
 main{
-    /* max-width:1140px (uni eita diace.but amar ei khane dik moto hyna.) */
-    max-width: 864px;
+    /* max-width:1140px (uni eita diace.but amar ei khane dik moto hyna.tai ami nicer ta dici) */
+    max-width: 900px;
     margin: 0 auto;
 }
-
 .section{
     margin-top: 130px;
 }
+
 /* about section styles */
 .about{
-    margin-top: 130px;
+    /* margin-top: 130px; (opore ace tai r repeat kra lagbe na) */
     background:#FFF8F3;
     border-radius: 10px;
     padding: 140px 150px;
+    margin-top: 130px;
 }
 .section-title{
     text-align: center;
@@ -119,11 +117,12 @@ main{
    font-weight: 400;
    font-size: 18px;
 } */
-.section{
-    padding-top: 150px;
+
+.section-title{
+    margin-top: 80px;
 }
 .section-description{
-    text-align: center;
+    text-align: left;
 }
 .skill-container{
     display: flex;
@@ -146,3 +145,57 @@ main{
 }
 
 /* Resume section */
+.resume-content{
+    display: flex;
+    gap:24px;
+}
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.resume .title{
+    font-weight: 700;
+    font-size: 25px;
+    color:#474747;
+    margin-bottom: 10px;
+}
+.resume .sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.resume .description{
+    color: #757575;
+}
+.resume-button{
+    margin-top: 50px;
+    text-align: center;
+}
+
+/* contact section styles*/
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color:#FFF8F3;
+    /* padding: 130px 200px; */
+    padding: 100px 100px;
+}
+.contact .section-title{
+    text-align: left;
+}
+.contact input[type="text"],input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+input{
+    height: 44px;
+}
+.contact a{
+    text-decoration: none;
+}
+footer p{
+    text-align: center;
+}
